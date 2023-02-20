@@ -1,0 +1,52 @@
+#horizontal-nav-bar {
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(28, 52, 25);
+    display: flex;
+    align-items: center;
+}
+
+#h-nav-bar-logo {
+    position: relative;
+    height: 95px;
+    width: 95px;
+    left: 5px;
+}
+
+#h-nav-bar-title {
+    position: relative;
+    left: 15px;
+    top: 10px;
+    font-size: 45px;
+    font-weight: 20;
+    font-family: cursive;
+    font-style: italic;
+    -webkit-text-stroke: 0.8px rgb(255, 255, 255);
+}
+
+#h-nav-bar-btns-div {
+    position: relative;
+    height: 50px;
+    float: right;
+    top: 15px;
+    left: calc(100% - 920px);
+    width: 550px;
+}
+
+.h-nav-bar-btn {
+    display: inline-block;
+    margin-left: 70px;
+    height: 40px;
+    width: auto;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    color:rgb(244, 241, 235);
+}
+
+.h-nav-bar-btn:hover {
+    cursor: pointer;
+}
