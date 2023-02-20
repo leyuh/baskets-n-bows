@@ -4,9 +4,11 @@
     position: fixed;
     left: 0px;
     top: 0px;
-    background-color: rgb(28, 52, 25);
+    background-color: rgb(21, 42, 19);
     display: flex;
     align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 #h-nav-bar-logo {
@@ -19,7 +21,7 @@
 #h-nav-bar-title {
     position: relative;
     left: 15px;
-    top: 10px;
+    top: 15px;
     font-size: 45px;
     font-weight: 20;
     font-family: cursive;
@@ -31,8 +33,8 @@
     position: relative;
     height: 50px;
     float: right;
-    top: 15px;
-    left: calc(100% - 920px);
+    top: 25px;
+    left: calc(100% - 940px);
     width: 550px;
 }
 
