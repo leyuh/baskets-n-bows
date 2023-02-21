@@ -11,6 +11,9 @@
 #v-nav-bar-btn {
     height: 25px;
     width: 35px;
-    float: right;
+    right: 10px;
+    top: 10px;
     margin: 2px;
+    z-index: 12;
+    position: fixed;
 }

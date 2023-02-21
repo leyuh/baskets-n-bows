@@ -9,7 +9,7 @@
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     font-family: PrimaryFont;
-    z-index: 3;
+    z-index: 10;
 }
 
 #v-nav-bar-x {

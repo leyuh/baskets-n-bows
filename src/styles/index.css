@@ -1,7 +1,14 @@
 #root {
     height: 100vh;
     width: 100vw;
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 0px;
+    overflow-x: hidden;
+    padding: 100px;
+}
+
+html {
+    overflow-x: hidden;
+    background-color: red;
 }
