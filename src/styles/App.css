@@ -1,3 +1,13 @@
+@font-face {
+    font-family: PrimaryFont;
+    src: url('../fonts/font-1.ttf');
+}
+@font-face {
+    font-family: SecondaryFont;
+    src: url('../fonts/font-2.otf');
+}
+
+
 #v-nav-bar-btn {
     height: 25px;
     width: 35px;

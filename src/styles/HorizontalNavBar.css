@@ -1,41 +1,47 @@
+
 #horizontal-nav-bar {
     height: 100px;
     width: 100vw;
     position: fixed;
     left: 0px;
     top: 0px;
-    background-color: rgb(21, 42, 19);
+    background-color: rgb(56, 51, 43);
     display: flex;
     align-items: center;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    font-family: PrimaryFont;
+    z-index: 3;
 }
+
 
 #h-nav-bar-logo {
     position: relative;
-    height: 95px;
-    width: 95px;
+    height: auto;
+    width: 100px;
     left: 5px;
 }
 
 #h-nav-bar-title {
     position: relative;
-    left: 15px;
-    top: 15px;
-    font-size: 45px;
-    font-weight: 20;
-    font-family: cursive;
-    font-style: italic;
-    -webkit-text-stroke: 0.8px rgb(255, 255, 255);
+    left: 25px;
+    top: 5px;
+    font-size: 50px;
+    font-family: inherit;
+    color: rgb(244, 241, 235);
+}
+
+#h-nav-bar-title:hover {
+    cursor: default;
 }
 
 #h-nav-bar-btns-div {
     position: relative;
     height: 50px;
     float: right;
-    top: 25px;
-    left: calc(100% - 940px);
-    width: 550px;
+    top: -5px;
+    left: calc(100% - 1200px);
+    width: 800px;
 }
 
 .h-nav-bar-btn {
@@ -43,10 +49,10 @@
     margin-left: 70px;
     height: 40px;
     width: auto;
-    font-size: 20px;
-    font-weight: 100;
-    font-style: italic;
+    font-size: 30px;
+    font-weight: 900;
     color:rgb(244, 241, 235);
+
 }
 
 .h-nav-bar-btn:hover {

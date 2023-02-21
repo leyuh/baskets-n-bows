@@ -4,6 +4,7 @@ import NavBarImg from './images/navbar.png';
 
 import HorizontalNavBar from './components/HorizontalNavBar';
 import VerticalNavBar from './components/VerticalNavBar';
+import MainPage from './components/MainPage';
 
 import './styles/App.css';
 
@@ -16,7 +17,7 @@ function App() {
   useEffect(() => {
     console.log("ping");
     let width = window.innerWidth;
-    if (width < 1000) {
+    if (width < 1200) {
       setMobile(true);
     } else {
       setMobile(false);
@@ -33,6 +34,8 @@ function App() {
           return !prev;
         })
       }}/> : <HorizontalNavBar/>}
+
+      <MainPage/>
     </div>
   );
 }

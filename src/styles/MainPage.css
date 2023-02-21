@@ -1,0 +1,9 @@
+#main-div {
+    width: 100vw;
+    height: 500vh;
+    position: absolute;
+    overflow-x: hidden;
+    left: 0px;
+    top: 0px;
+    background-color: green;
+}
