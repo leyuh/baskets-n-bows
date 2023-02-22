@@ -39,7 +39,7 @@
     position: relative;
     height: 50px;
     float: right;
-    top: -5px;
+    top: 5px;
     left: calc(100% - 1200px);
     width: 800px;
 }
@@ -52,7 +52,7 @@
     font-size: 30px;
     font-weight: 900;
     color:rgb(244, 241, 235);
-
+    text-decoration: none;
 }
 
 .h-nav-bar-btn:hover {

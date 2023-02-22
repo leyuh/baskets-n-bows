@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 80px);
+    height: 100vh;
     background-color: rgb(7, 7, 7);
 }
 
@@ -42,14 +42,14 @@
     height: 65vh;
     z-index: 3;
     position: absolute;
-    top: calc(20vh - 45px);
+    top: calc(25vh - 45px);
 }
 
 #about-us-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(36, 18, 38);
+    background-color: rgb(38, 18, 38);
     height: 100vh !important;
     padding-bottom: 50px;
 }
@@ -62,7 +62,7 @@
 .info-panel {
     height: min-content;
     width: min(450px, 40vw);
-    background-color: rgb(78, 54, 81);
+    background-color: rgb(81, 54, 80);
     border-radius: 10px;
     padding: 30px;
     color: rgb(244, 240, 232);
@@ -75,7 +75,7 @@
 .info-panel > h2 {
     position: relative;
     top: -15px;
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: -10px;
 }
 
@@ -84,12 +84,42 @@
     font-size: 17px;
     font-weight: 100;
     margin-bottom: 10px;
+    line-height: 130%;
 }
 
 #gallery-section {
     display: flex;
+    height: min-content;
+    left: 0px;
+    top: 0px;
+    position: relative;
     justify-content: center;
     align-items: center;
+}
+
+#gallery-title {
+    top: 70px;
+    left: 20px;
+    position: absolute;
+    z-index: 4;
+    color: white;
+    font-family: PrimaryFont;
+    font-size: 70px;
+}
+
+#gallery-grid-div {
+    background-color: green;
+    height: 94%;
+    width: 94%;
+    top: calc(220px + 2vh);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+    justify-items: center;
+    align-items: center;
+    height: min-content;
+    padding-bottom: 30vh;
+    gap: 3px;
 }
 
 #about-us-img {
@@ -97,8 +127,7 @@
     width: min(550px, 50vw);
     position: relative;
     z-index: 5;
-    margin: 20px;
-    border-radius: 10px;
+    gap: 5px;
 }
 
 #gallery-background-img {
@@ -114,12 +143,12 @@
 
 .gallery-image-div {
     z-index: 3;
-    height: min-content;
-    width: 300px;
-    background-color: black;
+    height: min(300px, 90vh);
+    width: auto;
+    background-color: rgba(0, 0, 0, 0);
     position: relative;
-    margin: 1px;
-    border: 2px solid black;
+    border: 0px;
+    margin: 5px;
 }
 .gallery-img {
     z-index: 4;
@@ -127,7 +156,7 @@
     width: 100%;
     left: 0px;
     top: 0px;
-    object-fit: contain;
+    object-fit:contain;
     position: relative;
 }
 .gallery-desc {
@@ -143,7 +172,7 @@
     font-size: 20px;
 }
 .gallery-image-div:hover .gallery-img {
-    filter: brightness(50%) blur(5px);
+    filter: brightness(50%) blur(2px);
 }
 .gallery-image-div:hover .gallery-desc {
     visibility: visible;
@@ -166,6 +195,9 @@
     }
     #home-logo {
         top: 20vh;
+    }
+    #gallery-title {
+        top: 20px;
     }
 }
 

@@ -27,23 +27,26 @@ export const MainPage: React.FC = () => {
           <h2>About Us</h2>
           <p>"Do what you love and you'll never work a day of your life."</p>
           <p>
-          &emsp;I have always been a passionate gifter. For the people I love, I go the extra mile to be sure they know how well I know them and how much they mean to me. From choosing the perfect treasure to dressing it up with the fitting paper and bows, I adore every step. The extra effort is always felt and appreciated. Let me come along side of you to show your loved ones how much they mean to you. I enjoy nothing more.
+          &emsp;I have always been a passionate gifter.  For the people I love, I go the extra mile to be sure they know how well I know them and how much they mean to me.  From choosing the perfect treasure to dressing it up with the fitting paper and bows, I adore every step.  The extra effort is always felt and appreciated.  Let me come along side of you to show your loved ones how much they mean to you.  I enjoy nothing more.
           </p>
         </div>
       </div>
 
       <div className="page-section" id="gallery-section">
         <img id="gallery-background-img" src={GalleryBackgroundImg}/>
-        {GALLERY.map((val, i) => {
-          let img = val[0];
-          let desc = val[1];
-          return <GalleryImage
-            path={img}
-            desc={desc}
-            key={i}
-            k={i}
-          />
-        })}
+        <h1 id="gallery-title">Gallery</h1>
+        <div id="gallery-grid-div">
+          {GALLERY.map((val, i) => {
+            let img = val[0];
+            let desc = val[1];
+            return <GalleryImage
+              path={img}
+              desc={desc}
+              key={i}
+              k={i}
+            />
+          })}
+        </div>
       </div>
 
     </div>
