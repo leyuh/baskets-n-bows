@@ -5,6 +5,10 @@ import HomeBackgroundImg from '../images/home-img.jpeg';
 import AboutUsImg from '../images/about-us-img.png';
 import GalleryBackgroundImg from '../images/gallery-img-1.jpeg';
 
+import GalleryImage from './GalleryImage';
+
+import GALLERY from '../galleryModule';
+
 import '../styles/MainPage.css';
 
 
@@ -30,6 +34,16 @@ export const MainPage: React.FC = () => {
 
       <div className="page-section" id="gallery-section">
         <img id="gallery-background-img" src={GalleryBackgroundImg}/>
+        {GALLERY.map((val, i) => {
+          let img = val[0];
+          let desc = val[1];
+          return <GalleryImage
+            path={img}
+            desc={desc}
+            key={i}
+            k={i}
+          />
+        })}
       </div>
 
     </div>

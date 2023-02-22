@@ -86,6 +86,12 @@
     margin-bottom: 10px;
 }
 
+#gallery-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #about-us-img {
     height: auto;
     width: min(550px, 50vw);
@@ -102,7 +108,49 @@
     left: 0px;
     top: 0px;
     object-fit: cover;
+    z-index: 2;
     filter: brightness(10%) saturate(120%) sepia(20%) blur(3px);
+}
+
+.gallery-image-div {
+    z-index: 3;
+    height: min-content;
+    width: 300px;
+    background-color: black;
+    position: relative;
+    margin: 1px;
+    border: 2px solid black;
+}
+.gallery-img {
+    z-index: 4;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    object-fit: contain;
+    position: relative;
+}
+.gallery-desc {
+    z-index: 4;
+    left: 12%;
+    top: 12%;
+    height: 86%;
+    width: 86%;
+    position: absolute;
+    color: rgb(244, 240, 232);
+    visibility: hidden;
+    font-family: cursive;
+    font-size: 20px;
+}
+.gallery-image-div:hover .gallery-img {
+    filter: brightness(50%) blur(5px);
+}
+.gallery-image-div:hover .gallery-desc {
+    visibility: visible;
+}
+
+.gallery-desc:hover {
+    cursor: default;
 }
 
 @media only screen and (max-width: 1200px) {
