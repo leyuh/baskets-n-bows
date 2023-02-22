@@ -5,7 +5,7 @@
     position: fixed;
     left: 0px;
     top: 0px;
-    background-color: rgb(56, 51, 43);
+    background-color: rgb(31, 38, 22);
     display: flex;
     align-items: center;
     border-bottom-left-radius: 15px;
@@ -28,7 +28,7 @@
     top: 5px;
     font-size: 50px;
     font-family: inherit;
-    color: rgb(244, 241, 235);
+    color: rgb(244, 240, 232);
 }
 
 #h-nav-bar-title:hover {

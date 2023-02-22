@@ -1,0 +1,6 @@
+colors:
+
+off-white: rgb(244, 240, 232);
+brown: rgb(40, 36, 30);
+cream: rgb(200, 180, 148);
+green: rgb(31, 38, 22);
