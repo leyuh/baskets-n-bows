@@ -51,7 +51,7 @@
     align-items: center;
     background-color: rgb(36, 18, 38);
     height: 100vh !important;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 #about-us-div {
@@ -93,6 +93,16 @@
     z-index: 5;
     margin: 20px;
     border-radius: 10px;
+}
+
+#gallery-background-img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+    filter: brightness(10%) saturate(120%) sepia(20%) blur(3px);
 }
 
 @media only screen and (max-width: 1200px) {
