@@ -4,6 +4,7 @@ import Logo from '../images/logo.png';
 import HomeBackgroundImg from '../images/home-img.jpeg';
 import AboutUsImg from '../images/about-us-img-2.jpeg';
 import GalleryBackgroundImg from '../images/gallery-img-1.jpeg';
+import HowItWorksImg from '../images/how-it-works-img.jpeg';
 
 import GalleryImage from './GalleryImage';
 
@@ -47,6 +48,35 @@ export const MainPage: React.FC = () => {
             />
           })}
         </div>
+      </div>
+
+      <div className="page-section" id="how-it-works-section">
+        <div className="info-panel" id="how-it-works-div">
+          <h2>How It Works</h2>
+          <ul id="how-it-works-list">
+            <li id="li-1">
+              <h3 className="step-number">1.</h3>
+              <h6 className="step-desc">It's easy!</h6>
+            </li>
+            <li id="li-2">
+              <h3 className="step-number">2.</h3>
+              <h6 className="step-desc">First, tell me your budget, and the day you'll need delivery or pickup.</h6>
+            </li>
+            <li>
+              <h3 className="step-number">3.</h3>
+              <h6 className="step-desc">Talk to me about the theme you have in mind. 	&#40;Don't have one? No problem! I can help.&#41;</h6>
+            </li>
+            <li>
+              <h3 className="step-number">4.</h3>
+              <h6 className="step-desc">Tell me as many little details as you can about your special person. I can use just about anything!</h6>
+            </li>
+            <li>
+              <h3 className="step-number">5.</h3>
+              <h6 className="step-desc">Finally, relax. Let me do the leg work, planning, customizing and designing of a distinctive gift that is truly tailored for your recipient.</h6>
+            </li>
+          </ul>
+        </div>
+        <img id="how-it-works-img" src={HowItWorksImg}/>
       </div>
 
     </div>

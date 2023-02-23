@@ -4,9 +4,4 @@ off-white: rgb(244, 240, 232);
 brown: rgb(40, 36, 30);
 cream: rgb(200, 180, 148);
 green: rgb(31, 38, 22);
-
-purple: rgb(38, 18, 38);
-light purple: rgb(81, 54, 80);
-
-dark blue: rgb(22, 28, 52);
 dark brown: rgb(33, 27, 22);
