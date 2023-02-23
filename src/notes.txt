@@ -5,3 +5,9 @@ brown: rgb(40, 36, 30);
 cream: rgb(200, 180, 148);
 green: rgb(31, 38, 22);
 dark brown: rgb(33, 27, 22);
+
+dark orange: rgb(169, 84, 48);
+orange: rgb(178, 106, 70);
+
+dark green: rgb(64, 76, 37);
+green: rgb(91, 105, 66);

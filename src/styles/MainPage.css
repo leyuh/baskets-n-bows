@@ -187,25 +187,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(117, 99, 78);
+    background-color: rgb(64, 76, 37);
     height: 100vh !important;
-    padding-bottom: 50px;
+    padding-top: 5vh;
+    padding-bottom: 30vh;
 }
 
 #how-it-works-div {
     position: relative;
     margin-left: 20px;
-    color: rgb(33, 27, 22);
-    background-color: rgb(154, 137, 119);
+    color: rgb(244, 240, 232);
+    background-color: rgb(91, 105, 66);
+    overflow-y: hidden;
 }
 
-#how-it-works-img {
+#how-it-works-imgs-div {
     height: auto;
     width: min(550px, 50vw);
     position: relative;
     z-index: 5;
     gap: 5px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
 }
+.how-it-works-img {
+    position: relative;
+    display: block;
+    width: 90%;
+    left: 5%;
+    height: auto;
+}
+
 
 #how-it-works-div > h2 {
     font-size: 40px;
@@ -264,6 +277,13 @@
     #gallery-title {
         top: 20px;
     }
+    #gallery-grid-div {
+        padding-bottom: 65vh;
+    }
+    #how-it-works-section {
+        padding-top: 25vh;
+        padding-bottom: 60vh;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -286,6 +306,9 @@
         left: calc(7vw - 10px);
         top: 10vh;
     }
+    #gallery-grid-div {
+        padding-bottom: 55vh;
+    }
     #about-us-img {
         display: block;
         position: relative;
@@ -294,5 +317,31 @@
         left: 5vw;
         margin: 0px;
         top: 5vh;
+    }
+    #how-it-works-div {
+        left: 0vw !important;
+    }
+    #how-it-works-imgs-div {
+        visibility: hidden;
+        position:absolute;
+    }
+    #li-1 {
+        height: 10px !important;
+    }
+    #li-2 {
+        height: 65px !important;
+    }
+    #how-it-works-list > li {
+        margin-bottom: 40px;
+    }
+    #how-it-works-div > h2 {
+        top: 10px;
+        left: 5px;
+        margin-bottom: 20px;
+        font-size: 30px !important;
+    }
+    #how-it-works-section {
+        padding-top: 30vh;
+        padding-bottom: 100vh;
     }
 }

@@ -4,7 +4,7 @@ import Logo from '../images/logo.png';
 import HomeBackgroundImg from '../images/home-img.jpeg';
 import AboutUsImg from '../images/about-us-img-2.jpeg';
 import GalleryBackgroundImg from '../images/gallery-img-1.jpeg';
-import HowItWorksImg from '../images/how-it-works-img.jpeg';
+import HowItWorksImg from '../images/how-it-works-img-3.png';
 
 import GalleryImage from './GalleryImage';
 
@@ -25,7 +25,7 @@ export const MainPage: React.FC = () => {
       <div className="page-section" id="about-us-section">
         <img id="about-us-img" src={AboutUsImg}/>
         <div className="info-panel" id="about-us-div">
-          <h2>About Us</h2>
+          <h2>About Me</h2>
           <p>"Do what you love and you'll never work a day of your life."</p>
           <p>
           &emsp;I have always been a passionate gifter.  For the people I love, I go the extra mile to be sure they know how well I know them and how much they mean to me.  From choosing the perfect treasure to dressing it up with the fitting paper and bows, I adore every step.  The extra effort is always felt and appreciated.  Let me come along side of you to show your loved ones how much they mean to you.  I enjoy nothing more.
@@ -52,7 +52,7 @@ export const MainPage: React.FC = () => {
 
       <div className="page-section" id="how-it-works-section">
         <div className="info-panel" id="how-it-works-div">
-          <h2>How It Works</h2>
+          <h2>How it Works</h2>
           <ul id="how-it-works-list">
             <li id="li-1">
               <h3 className="step-number">1.</h3>
@@ -76,7 +76,10 @@ export const MainPage: React.FC = () => {
             </li>
           </ul>
         </div>
-        <img id="how-it-works-img" src={HowItWorksImg}/>
+        <div id="how-it-works-imgs-div">
+          <img className="how-it-works-img" id="how-it-works-img-1" src={HowItWorksImg}/>
+          <img className="how-it-works-img" id="how-it-works-img-2" src={HowItWorksImg}/>
+        </div>
       </div>
 
     </div>
