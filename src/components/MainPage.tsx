@@ -2,7 +2,7 @@ import React, { SetStateAction } from 'react';
 
 import Logo from '../images/logo.png';
 import HomeBackgroundImg from '../images/home-img.jpeg';
-import AboutUsImg from '../images/about-us-img.png';
+import AboutUsImg from '../images/about-us-img-2.jpeg';
 import GalleryBackgroundImg from '../images/gallery-img-1.jpeg';
 
 import GalleryImage from './GalleryImage';
