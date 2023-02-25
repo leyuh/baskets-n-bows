@@ -355,13 +355,17 @@
     color: black;
 }
 
-#message-div > h3 {
+#message-div > form > label {
     font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
 }
 
-#message-div > input {
+#message-div > form {
+    height: 90%;
+}
+
+#message-div > form > input {
     position: relative;
     width: 96%;
     left: 2%;
@@ -372,11 +376,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#message-div > textarea {
+#message-div > form > textarea {
     position: relative;
     width: 96%;
     left: 2%;
-    height: 30%;
+    height: 30% !important;
     color:rgb(252, 251, 248);
     border: 0px;
     color: black;
@@ -387,8 +391,8 @@
 #send-message-btn {
     border: 0px;
     background-color: rgb(78, 96, 53);
-    height: 30px;
-    width: 70px;
+    height: 30px !important;
+    width: 70px !important;
     color: rgb(252, 251, 248);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 3px;

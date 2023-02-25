@@ -12,6 +12,8 @@ import GalleryImage from './GalleryImage';
 
 import GALLERY from '../galleryModule';
 
+import { ContactMe } from '../components/Contact';
+
 import '../styles/MainPage.css';
 
 
@@ -104,13 +106,7 @@ export const MainPage: React.FC = () => {
 
         <div className="info-panel" id="message-div">
           <h2>Message Me</h2>
-          <h3>Name</h3>
-          <input id="name-inp" type="text"/>
-          <h3>Email</h3>
-          <input id="email-inp" type="text"/>
-          <h3>Message</h3>
-          <textarea id="message-inp"/><br/>
-          <button id="send-message-btn">Send</button>
+          <ContactMe/>
         </div>
       </div>
 
