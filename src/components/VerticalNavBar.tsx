@@ -18,11 +18,21 @@ export const VerticalNavBar: React.FC<VerticalNavBarProps> = ({navVis, setNavVis
             })
         }}>X</h1>
       <div id="v-nav-bar-btns-div">
-        <a href="#home-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn">Home</a><br/>
-        <a href="#about-us-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn">About Me</a><br/>
-        <a href="#gallery-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn">Gallery</a><br/>
-        <a href="#how-it-works-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn">How it Works</a><br/>
-        <a href="#contact-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn">Contact</a>
+        <a href="#home-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn" onClick={() => {
+          setNavVis(false);
+        }}>Home</a><br/>
+        <a href="#about-us-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn" onClick={() => {
+          setNavVis(false);
+        }}>About Me</a><br/>
+        <a href="#gallery-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn" onClick={() => {
+          setNavVis(false);
+        }}>Gallery</a><br/>
+        <a href="#how-it-works-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn" onClick={() => {
+          setNavVis(false);
+        }}>How it Works</a><br/>
+        <a href="#contact-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn" onClick={() => {
+          setNavVis(false);
+        }}>Contact</a>
       </div>
     </div>
   );
