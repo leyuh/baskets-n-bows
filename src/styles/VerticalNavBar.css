@@ -10,6 +10,7 @@
     border-top-left-radius: 15px;
     font-family: PrimaryFont;
     z-index: 10;
+    overflow-y: scroll;
 }
 
 #v-nav-bar-x {
@@ -30,6 +31,7 @@
 }
 
 .v-nav-bar-btn {
+    text-decoration: none;
     position: relative;
     top: 30px;
     left: -15px;
@@ -38,7 +40,7 @@
     font-size: 22px;
     font-weight: 900;
     font-style: italic;
-    margin-bottom: 0px;
+    margin-bottom: 15px !important;
     color:rgb(244, 241, 235);
 }
 

@@ -99,13 +99,15 @@
 }
 
 #gallery-title {
-    top: 40px;
-    left: 20px;
+    top: 6vh;
+    width: 94%;
+    left: 3%;
     position: absolute;
     z-index: 4;
+
     color: white;
     font-family: PrimaryFont;
-    font-size: 80px;
+    font-size: 65px;
 }
 
 #gallery-grid-div {
@@ -119,7 +121,7 @@
     justify-items: center;
     align-items: center;
     height: min-content;
-    padding-bottom: 30vh;
+    padding-bottom: 40vh;
     gap: 3px;
 }
 
@@ -144,7 +146,7 @@
 
 .gallery-image-div {
     z-index: 3;
-    height: min(300px, 90vh);
+    height: min-content;
     width: auto;
     background-color: rgba(0, 0, 0, 0);
     position: relative;
@@ -259,6 +261,142 @@
     height: min-content;
 }
 
+#contact-title {
+    width: 94%;
+    left: 3%;
+    position: absolute;
+    top: 6vh;
+    font-family: PrimaryFont;
+    font-size: 65px;
+    color:rgb(244, 240, 232);
+}
+
+#contact-section {
+    position: relative;
+    height: 100vh;
+    background-color: rgb(166, 144, 110);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50vh;
+}
+
+#contact-info-div {
+    position: relative;
+    height: min(250px, 90vw);
+    width: min(250px, 90vw);
+    border-radius: 15px;
+    background-color: rgb(127, 108, 80);
+    top: 35vh;
+    overflow-y: hidden;
+}
+
+#contact-info-div > h2 {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    left: 0%;
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: -25px;
+}
+
+#contact-info-div > p {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    left: 0%;
+    margin-bottom: -20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+#socials-div {
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    bottom: -30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socials-div > a > img {
+    background-color: rgb(166, 144, 110);
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0px;
+}
+
+#socials-div > img:hover {
+    cursor: grab;
+}
+
+#message-div {
+    height: 400px;
+    width: 300px;
+    background-color: rgb(244, 240, 232);
+    top: 27.5vh;
+    overflow-y: hidden;
+}
+
+#message-div > h2 {
+    position: relative;
+    top: -30px;
+    left: -10px;
+    margin-bottom: -35px;
+    font-size: 35px;
+}
+
+#message-div > * {
+    color: black;
+}
+
+#message-div > h3 {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+#message-div > input {
+    position: relative;
+    width: 96%;
+    left: 2%;
+    color:rgb(252, 251, 248);
+    height: 20px;
+    border: 0px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#message-div > textarea {
+    position: relative;
+    width: 96%;
+    left: 2%;
+    height: 30%;
+    color:rgb(252, 251, 248);
+    border: 0px;
+    color: black;
+    resize: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#send-message-btn {
+    border: 0px;
+    background-color: rgb(78, 96, 53);
+    height: 30px;
+    width: 70px;
+    color: rgb(252, 251, 248);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 3px;
+    font-size: 15px;
+}
+#send-message-btn:hover {
+    cursor: grab;
+}
 
 @media only screen and (max-width: 1200px) {
     #main-div {
@@ -284,6 +422,9 @@
         padding-top: 25vh;
         padding-bottom: 60vh;
     }
+    #contact-section {
+        padding-bottom: 80vh;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -294,8 +435,8 @@
         font-size: 11px !important;
     }
     #about-us-section {
-        height: min-content !important;
         display: block;
+        padding-bottom: 15vh;
     }
     .info-panel {
         display: block;
@@ -306,8 +447,13 @@
         left: calc(7vw - 10px);
         top: 10vh;
     }
+    #gallery-title {
+        text-align: center;
+        font-size: 50px;
+    }
     #gallery-grid-div {
-        padding-bottom: 55vh;
+        padding-bottom: 35vh;
+        top: 150px;
     }
     #about-us-img {
         display: block;
@@ -316,7 +462,10 @@
 
         left: 5vw;
         margin: 0px;
-        top: 5vh;
+        top: 20vh;
+    }
+    #about-us-div {
+        top: 25vh;
     }
     #how-it-works-div {
         left: 0vw !important;
@@ -326,13 +475,22 @@
         position:absolute;
     }
     #li-1 {
-        height: 10px !important;
+        height: 30px !important;
     }
     #li-2 {
         height: 65px !important;
     }
+    .step-desc {
+        font-size: 15px;
+        left: 15px;
+        width: 67vw;
+    }
+    .step-number {
+        left: -15px;
+        font-size: 20px;
+    }
     #how-it-works-list > li {
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
     #how-it-works-div > h2 {
         top: 10px;
@@ -341,7 +499,55 @@
         font-size: 30px !important;
     }
     #how-it-works-section {
-        padding-top: 30vh;
-        padding-bottom: 100vh;
+        padding-top: 0vh;
+        padding-bottom: 20vh;
     }
+    #how-it-works-div > h2 {
+        font-size: 25px;
+        left: 0px;
+        text-align: center;
+    }
+    #contact-title {
+        font-size: 45px;
+        left: 0px;
+        text-align: center;
+    }
+    #contact-info-div {
+        top: 25vh;
+        width: 84vw !important;
+        height: 84vw !important;
+        left: 5vw;
+        display: block;
+        position: relative;
+        overflow-y: hidden;
+    }
+    #message-div {
+        top: 30vh;
+        width: 88vw !important;
+        left: 3.5vw;
+    }
+    #message-div > h2 {
+        font-size: 30px !important;
+        position: relative;
+        top: -25px;
+        left: -5px;
+    }
+    #contact-section {
+        display: block;
+        height: min-content;
+        padding-bottom: 70vh;
+    }
+    #contact-info-div > h2 {
+        margin-bottom: 35px;
+        top: 5vh;
+        font-size: 45px !important;
+    }
+    #contact-info-div > p {
+        margin-bottom: -15px !important;
+        font-size: 15px !important;
+    }
+    #socials-div {
+        bottom: -8vh;
+    }
+    
 }

@@ -18,11 +18,11 @@ export const VerticalNavBar: React.FC<VerticalNavBarProps> = ({navVis, setNavVis
             })
         }}>X</h1>
       <div id="v-nav-bar-btns-div">
-        <h1 className="v-nav-bar-btn" id="v-nav-bar-home-btn">Home</h1>
-        <h1 className="v-nav-bar-btn" id="v-nav-bar-home-btn">About Me</h1>
-        <h1 className="v-nav-bar-btn" id="v-nav-bar-home-btn">Gallery</h1>
-        <h1 className="v-nav-bar-btn" id="v-nav-bar-home-btn">How it Works</h1>
-        <h1 className="v-nav-bar-btn" id="v-nav-bar-home-btn">Contact</h1>
+        <a href="#home-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn">Home</a><br/>
+        <a href="#about-us-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn">About Me</a><br/>
+        <a href="#gallery-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn">Gallery</a><br/>
+        <a href="#how-it-works-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn">How it Works</a><br/>
+        <a href="#contact-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn">Contact</a>
       </div>
     </div>
   );

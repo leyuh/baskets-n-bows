@@ -5,12 +5,15 @@ import HomeBackgroundImg from '../images/home-img.jpeg';
 import AboutUsImg from '../images/about-us-img-2.jpeg';
 import GalleryBackgroundImg from '../images/gallery-img-1.jpeg';
 import HowItWorksImg from '../images/how-it-works-img-3.png';
+import FacebookImg from '../images/facebook.png';
+import InstaImg from '../images/insta.png';
 
 import GalleryImage from './GalleryImage';
 
 import GALLERY from '../galleryModule';
 
 import '../styles/MainPage.css';
+
 
 
 export const MainPage: React.FC = () => {
@@ -79,6 +82,35 @@ export const MainPage: React.FC = () => {
         <div id="how-it-works-imgs-div">
           <img className="how-it-works-img" id="how-it-works-img-1" src={HowItWorksImg}/>
           <img className="how-it-works-img" id="how-it-works-img-2" src={HowItWorksImg}/>
+        </div>
+      </div>
+
+      <div className="page-section" id="contact-section">
+
+        <h1 id="contact-title">Contact</h1>
+        
+        <div className="info-panel" id="contact-info-div">
+          <h2>Nanci Devlin</h2>
+          <p>basketsnbows@icloud.com</p>
+          <p>541.979.3840</p>
+          <p>www.facebook.com/nancisbasketsnbows</p>
+          <p>Instagram: @nancisbasketsnbows</p>
+          <div id="socials-div">
+            <a href="https://www.facebook.com/nancisbasketsnbows/" target="_blank"><img id="facebook-img" src={FacebookImg}/></a>
+            <a href="https://www.instagram.com/nancisbasketsnbows/" target="_blank"><img id="instagram-img" src={InstaImg}/></a>
+          </div>
+          
+        </div>
+
+        <div className="info-panel" id="message-div">
+          <h2>Message Me</h2>
+          <h3>Name</h3>
+          <input id="name-inp" type="text"/>
+          <h3>Email</h3>
+          <input id="email-inp" type="text"/>
+          <h3>Message</h3>
+          <textarea id="message-inp"/><br/>
+          <button id="send-message-btn">Send</button>
         </div>
       </div>
 

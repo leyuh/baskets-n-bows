@@ -14,7 +14,7 @@ function HorizontalNavBar() {
         <a href="#about-us-section" className="h-nav-bar-btn" id="h-nav-bar-home-btn">About Me</a>
         <a href="#gallery-section" className="h-nav-bar-btn" id="h-nav-bar-home-btn">Gallery</a>
         <a href="#how-it-works-section" className="h-nav-bar-btn" id="h-nav-bar-home-btn">How it Works</a>
-        <a href="#" className="h-nav-bar-btn" id="h-nav-bar-home-btn">Contact</a>
+        <a href="#contact-section" className="h-nav-bar-btn" id="h-nav-bar-home-btn">Contact</a>
       </div>
     </div>
   );
