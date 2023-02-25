@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/baskets-n-bows/static/css/main.08ffd797.css",
-    "main.js": "/baskets-n-bows/static/js/main.864a8472.js",
+    "main.css": "/baskets-n-bows/static/css/main.335739f1.css",
+    "main.js": "/baskets-n-bows/static/js/main.72534c5e.js",
     "static/media/product-5.jpeg": "/baskets-n-bows/static/media/product-5.3bde199f8ff29e4e9a43.jpeg",
     "static/media/product-12.jpeg": "/baskets-n-bows/static/media/product-12.05bf22b211a196f29ef0.jpeg",
     "static/media/product-16.jpeg": "/baskets-n-bows/static/media/product-16.e586d2c46cb2bfd5357b.jpeg",
@@ -29,11 +29,11 @@
     "static/media/font-1.ttf": "/baskets-n-bows/static/media/font-1.1d7f0d5b45822c1be70c.ttf",
     "static/media/font-2.otf": "/baskets-n-bows/static/media/font-2.0d681ed699b8c075718f.otf",
     "index.html": "/baskets-n-bows/index.html",
-    "main.08ffd797.css.map": "/baskets-n-bows/static/css/main.08ffd797.css.map",
-    "main.864a8472.js.map": "/baskets-n-bows/static/js/main.864a8472.js.map"
+    "main.335739f1.css.map": "/baskets-n-bows/static/css/main.335739f1.css.map",
+    "main.72534c5e.js.map": "/baskets-n-bows/static/js/main.72534c5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.08ffd797.css",
-    "static/js/main.864a8472.js"
+    "static/css/main.335739f1.css",
+    "static/js/main.72534c5e.js"
   ]
 }
