@@ -164,15 +164,16 @@
 }
 .gallery-desc {
     z-index: 4;
-    left: 12%;
+    left: 7%;
     top: 12%;
-    height: 86%;
+    height: 76%;
     width: 86%;
     position: absolute;
     color: rgb(244, 240, 232);
     visibility: hidden;
     font-family: cursive;
     font-size: 20px;
+    overflow-y: scroll;
 }
 .gallery-image-div:hover .gallery-img {
     filter: brightness(50%) blur(2px);
