@@ -473,12 +473,18 @@
     #about-us-div {
         top: 25vh;
     }
+    #how-it-works-section {
+        display: block;
+        height: min-content !important;
+    }
     #how-it-works-div {
-        left: 0vw !important;
+        left: 4vw;
     }
     #how-it-works-imgs-div {
-        visibility: hidden;
-        position:absolute;
+        top: 12vh;
+        width: 94vw !important;
+        left: 3vw !important;
+        height: auto;
     }
     #li-1 {
         height: 30px !important;
@@ -530,7 +536,7 @@
     #message-div {
         top: 30vh;
         width: 88vw !important;
-        left: 3.5vw;
+        left: calc(50% - 46.5vw);
     }
     #message-div > h2 {
         font-size: 30px !important;
