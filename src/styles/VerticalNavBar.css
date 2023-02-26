@@ -24,6 +24,7 @@
     color: white;
     font-size: 25px;
     text-align: center;
+
 }
 
 #v-nav-bar-x:hover {
@@ -33,14 +34,15 @@
 .v-nav-bar-btn {
     text-decoration: none;
     position: relative;
-    top: 30px;
+    top: 70px;
     left: -15px;
-    height: 40px;
+    height: 50px;
+    line-height: 50px;
     width: auto;
     font-size: 22px;
     font-weight: 900;
     font-style: italic;
-    margin-bottom: 15px !important;
+    margin-bottom: 45px !important;
     color:rgb(244, 241, 235);
 }
 

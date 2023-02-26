@@ -42,7 +42,7 @@
     height: 65vh;
     z-index: 3;
     position: absolute;
-    top: calc(25vh - 45px);
+    top: calc(25vh - 90px);
 }
 
 #about-us-section {
@@ -125,7 +125,7 @@
     top: calc(220px + 2vh);
     position: relative;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
     justify-items: center;
     align-items: center;
     height: min-content;
@@ -241,7 +241,7 @@
     position: relative;
     list-style-type: none;
     left: -25px;
-    height: 90px;
+    height: 80px;
     margin: 5px;
 }
 #li-1 {
@@ -443,17 +443,17 @@
 
 @media only screen and (max-width: 750px) {
     .info-panel > h2 {
-        font-size: 20px !important;
+        font-size: 30px !important;
     }
     .info-panel > p {
-        font-size: 11px !important;
+        font-size: 14px !important;
     }
     #about-us-from {
-        font-size: 20px !important;
+        font-size: 25px !important;
     }
     #about-us-section {
         display: block;
-        padding-bottom: 15vh;
+        padding-bottom: 22vh;
     }
     .info-panel {
         display: block;
@@ -496,12 +496,6 @@
         width: 94vw !important;
         left: 3vw !important;
         height: auto;
-    }
-    #li-1 {
-        height: 30px !important;
-    }
-    #li-2 {
-        height: 65px !important;
     }
     .step-desc {
         font-size: 15px;
@@ -558,7 +552,7 @@
     #contact-section {
         display: block;
         height: min-content;
-        padding-bottom: 70vh;
+        padding-bottom: 80vh;
     }
     #contact-info-div > h2 {
         margin-bottom: 35px;
