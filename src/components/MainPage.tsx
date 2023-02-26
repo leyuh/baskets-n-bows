@@ -93,7 +93,7 @@ export const MainPage: React.FC = () => {
         
         <div className="info-panel" id="contact-info-div">
           <h2>Nanci Devlin</h2>
-          <p>basketsnbows@icloud.com</p>
+          <p>nancisbasketsnbows@icloud.com</p>
           <p>541.979.3840</p>
           <p>www.facebook.com/nancisbasketsnbows</p>
           <p>Instagram: @nancisbasketsnbows</p>

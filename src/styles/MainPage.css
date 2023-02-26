@@ -117,7 +117,7 @@
     top: calc(220px + 2vh);
     position: relative;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
     justify-items: center;
     align-items: center;
     height: min-content;
@@ -164,16 +164,17 @@
 }
 .gallery-desc {
     z-index: 4;
-    left: 7%;
-    top: 12%;
-    height: 76%;
-    width: 86%;
+    left: 4%;
+    top: calc(50% - 50px);
+    height: 50px;
+    width: 92%;
     position: absolute;
     color: rgb(244, 240, 232);
     visibility: hidden;
     font-family: cursive;
-    font-size: 20px;
-    overflow-y: scroll;
+    text-align: center;
+    font-size: 35px;
+    font-family: PrimaryFont;
 }
 .gallery-image-div:hover .gallery-img {
     filter: brightness(50%) blur(2px);
