@@ -13,6 +13,10 @@ function App() {
   const [mobile, setMobile] = useState(false);
   const [navVis, setNavVis] = useState<boolean>(false);
 
+  useEffect(() => {
+    document.title = 'Baskets n Bows';
+  }, []);
+
   // set mobile
   useEffect(() => {
     console.log("ping");
