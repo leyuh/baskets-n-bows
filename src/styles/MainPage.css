@@ -60,6 +60,14 @@
     background-color: rgb(61, 68, 101);
 }
 
+#about-us-from {
+    width: 95%;
+    text-align: right;
+    font-family: PrimaryFont;
+    font-size: 35px;
+    margin-top: -5px;
+}
+
 .info-panel {
     height: min-content;
     width: min(450px, 40vw);
@@ -439,6 +447,9 @@
     }
     .info-panel > p {
         font-size: 11px !important;
+    }
+    #about-us-from {
+        font-size: 20px !important;
     }
     #about-us-section {
         display: block;

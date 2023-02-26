@@ -35,6 +35,7 @@ export const MainPage: React.FC = () => {
           <p>
           &emsp;I have always been a passionate gifter.  For the people I love, I go the extra mile to be sure they know how well I know them and how much they mean to me.  From choosing the perfect treasure to dressing it up with the fitting paper and bows, I adore every step.  The extra effort is always felt and appreciated.  Let me come along side of you to show your loved ones how much they mean to you.  I enjoy nothing more.
           </p>
+          <p id="about-us-from"> - Nanci</p>
         </div>
       </div>
 
