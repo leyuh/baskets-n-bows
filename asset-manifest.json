@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/baskets-n-bows/static/css/main.335739f1.css",
-    "main.js": "/baskets-n-bows/static/js/main.72534c5e.js",
+    "main.css": "/baskets-n-bows/static/css/main.da57ce7e.css",
+    "main.js": "/baskets-n-bows/static/js/main.2457eb2f.js",
     "static/media/product-5.jpeg": "/baskets-n-bows/static/media/product-5.3bde199f8ff29e4e9a43.jpeg",
     "static/media/product-12.jpeg": "/baskets-n-bows/static/media/product-12.05bf22b211a196f29ef0.jpeg",
     "static/media/product-16.jpeg": "/baskets-n-bows/static/media/product-16.e586d2c46cb2bfd5357b.jpeg",
@@ -10,16 +10,13 @@
     "static/media/product-13.jpeg": "/baskets-n-bows/static/media/product-13.98ae123c8f1e25d32a38.jpeg",
     "static/media/gallery-img-1.jpeg": "/baskets-n-bows/static/media/gallery-img-1.ccd5f2d311b000ea4526.jpeg",
     "static/media/home-img.jpeg": "/baskets-n-bows/static/media/home-img.ca52465e2f3a7c17b71d.jpeg",
-    "static/media/product-3.jpeg": "/baskets-n-bows/static/media/product-3.ca52465e2f3a7c17b71d.jpeg",
     "static/media/product-9.jpeg": "/baskets-n-bows/static/media/product-9.d8eb4f69cd0bbf3b1540.jpeg",
     "static/media/about-us-img-2.jpeg": "/baskets-n-bows/static/media/about-us-img-2.dc0906d4e434131a8359.jpeg",
     "static/media/product-19.jpeg": "/baskets-n-bows/static/media/product-19.dc0906d4e434131a8359.jpeg",
     "static/media/product-18.jpeg": "/baskets-n-bows/static/media/product-18.a291a3e74198d9f98ac9.jpeg",
     "static/media/product-15.jpeg": "/baskets-n-bows/static/media/product-15.018c93b0fe5657f30066.jpeg",
-    "static/media/product-7.jpeg": "/baskets-n-bows/static/media/product-7.9c071f56a9228c045e29.jpeg",
     "static/media/product-8.jpeg": "/baskets-n-bows/static/media/product-8.ccdc8aa7cdddea26a0c9.jpeg",
     "static/media/product-11.jpeg": "/baskets-n-bows/static/media/product-11.dd440158abf96f286f43.jpeg",
-    "static/media/product-10.jpeg": "/baskets-n-bows/static/media/product-10.2aff1c74baa0a2a437f6.jpeg",
     "static/media/how-it-works-img-3.png": "/baskets-n-bows/static/media/how-it-works-img-3.e82647da6279b607f2fa.png",
     "static/media/product-17.jpeg": "/baskets-n-bows/static/media/product-17.2d4277de4e722abe6c4b.jpeg",
     "static/media/product-6.jpeg": "/baskets-n-bows/static/media/product-6.1df30bd8254d42dc660d.jpeg",
@@ -29,11 +26,11 @@
     "static/media/font-1.ttf": "/baskets-n-bows/static/media/font-1.1d7f0d5b45822c1be70c.ttf",
     "static/media/font-2.otf": "/baskets-n-bows/static/media/font-2.0d681ed699b8c075718f.otf",
     "index.html": "/baskets-n-bows/index.html",
-    "main.335739f1.css.map": "/baskets-n-bows/static/css/main.335739f1.css.map",
-    "main.72534c5e.js.map": "/baskets-n-bows/static/js/main.72534c5e.js.map"
+    "main.da57ce7e.css.map": "/baskets-n-bows/static/css/main.da57ce7e.css.map",
+    "main.2457eb2f.js.map": "/baskets-n-bows/static/js/main.2457eb2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.335739f1.css",
-    "static/js/main.72534c5e.js"
+    "static/css/main.da57ce7e.css",
+    "static/js/main.2457eb2f.js"
   ]
 }
