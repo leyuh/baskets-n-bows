@@ -14,7 +14,7 @@ function App() {
   const [navVis, setNavVis] = useState<boolean>(false);
 
   useEffect(() => {
-    document.title = 'Baskets n Bows';
+    document.title = 'Baskets & Bows';
   }, []);
 
   // set mobile
