@@ -1,4 +1,4 @@
-import React, { SetStateAction } from 'react';
+import React, { SetStateAction, useRef, useEffect } from 'react';
 
 import Logo from '../images/template.png';
 
@@ -10,14 +10,19 @@ interface VerticalNavBarProps {
 }
 
 export const VerticalNavBar: React.FC<VerticalNavBarProps> = ({navVis, setNavVis}) => {
+
+  const barRef = useRef<any>();
+
   return (
-    <div id="vertical-nav-bar">
+    <div id="vertical-nav-bar" className={navVis ? "open-anim" : "close-anim"} style={
+      navVis ? {right: "0px"} : {right: "-210px"}
+    }>
         <h1 id="v-nav-bar-x" onClick={() => {
             setNavVis((prev) => {
                 return !prev;
             })
         }}>X</h1>
-      <div id="v-nav-bar-btns-div">
+      <div ref={barRef} id="v-nav-bar-btns-div">
         <a href="#home-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn" onClick={() => {
           setNavVis(false);
         }}>Home</a><br/>

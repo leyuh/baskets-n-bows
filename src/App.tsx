@@ -30,14 +30,16 @@ function App() {
   
   return (
     <div id="app">
-      {mobile ? navVis ? <VerticalNavBar
+      {mobile ? <VerticalNavBar
         navVis={navVis}
         setNavVis={setNavVis}
-      /> : <img id="v-nav-bar-btn" src={NavBarImg} onClick={() => {
+      /> : <HorizontalNavBar/>}
+      {mobile ? <img id="v-nav-bar-btn" src={NavBarImg} onClick={() => {
         setNavVis((prev) => {
           return !prev;
         })
-      }}/> : <HorizontalNavBar/>}
+      }}/> : ""}
+      
 
       <MainPage/>
     </div>
