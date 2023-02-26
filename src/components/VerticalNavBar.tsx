@@ -13,8 +13,12 @@ export const VerticalNavBar: React.FC<VerticalNavBarProps> = ({navVis, setNavVis
 
   const barRef = useRef<any>();
 
+  useEffect(() => {
+    barRef.current.className = "preload";
+  }, [])
+
   return (
-    <div id="vertical-nav-bar" className={navVis ? "open-anim" : "close-anim"} style={
+    <div ref={barRef} id="vertical-nav-bar" className={navVis ? "open-anim" : "close-anim"} style={
       navVis ? {right: "0px"} : {right: "-210px"}
     }>
         <h1 id="v-nav-bar-x" onClick={() => {
@@ -22,7 +26,7 @@ export const VerticalNavBar: React.FC<VerticalNavBarProps> = ({navVis, setNavVis
                 return !prev;
             })
         }}>X</h1>
-      <div ref={barRef} id="v-nav-bar-btns-div">
+      <div id="v-nav-bar-btns-div">
         <a href="#home-section" className="v-nav-bar-btn" id="v-nav-bar-home-btn" onClick={() => {
           setNavVis(false);
         }}>Home</a><br/>
