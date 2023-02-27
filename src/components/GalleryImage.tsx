@@ -16,7 +16,7 @@ export const GalleryImage: React.FC<GalleryImageProps> = ({path, desc, k}) => {
   const descRef = useRef<any>();
 
   return (
-    <div ref={divRef} className="gallery-image-div" onClick={() => {
+    <div ref={divRef} className="gallery-image-div" onMouseDown={() => {
       if (isMobile) {
         setShow(prev => !prev);
         if (show) {
