@@ -302,13 +302,14 @@
 
 #contact-info-div > h2 {
     position: relative;
-    width: 100%;
+    width: 110%;
     top: 0px;
-    left: 0%;
-    height: 70px !important;
+    left: -5%;
+    height: 80px !important;
     text-align: center;
-    font-size: 55px;
+    font-size: auto;
     margin-bottom: -25px;
+    overflow-wrap: nowrap;
 }
 
 #contact-info-div > p {

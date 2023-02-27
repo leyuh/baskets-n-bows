@@ -38,10 +38,10 @@
 #h-nav-bar-btns-div {
     position: absolute;
     height: 50px;
-    float: right;
+    float: right !important;
     top: 25px;
-    right: 0px;
-    width: 750px;
+    right: 10px;
+    width: 60%;
     overflow-y: hidden;
 }
 
@@ -55,6 +55,7 @@
     font-weight: 900;
     color:rgb(244, 241, 235);
     text-decoration: none;
+    float: right;
 }
 
 .h-nav-bar-btn:hover {
