@@ -32,7 +32,7 @@
     top: 0%;
     left: -5%;
     object-fit: cover;
-    filter: blur(3px) brightness(30%);
+    filter: blur(3px) contrast(40%) brightness(100%);
 }
 
 #home-logo {
@@ -305,7 +305,7 @@
     width: 100%;
     top: 0px;
     left: 0%;
-    height: 90px !important;
+    height: 70px !important;
     text-align: center;
     font-size: 55px;
     margin-bottom: -25px;
@@ -324,8 +324,8 @@
     width: 100%;
     height: 60px;
     left: 0px;
-    position: relative;
-    bottom: -30px;
+    position: absolute;
+    bottom: 0px !important;
 
     display: flex;
     justify-content: center;
@@ -454,7 +454,7 @@
     }
     #about-us-section {
         display: block;
-        padding-bottom: 22vh;
+        padding-bottom: 32vh;
     }
     .info-panel {
         display: block;
@@ -558,7 +558,7 @@
     #contact-info-div > h2 {
         margin-bottom: 35px;
         top: 5vh;
-        font-size: 45px !important;
+        font-size: 40px !important;
     }
     #contact-info-div > p {
         margin-bottom: -15px !important;

@@ -17,6 +17,7 @@ export const GalleryImage: React.FC<GalleryImageProps> = ({path, desc, k}) => {
 
   return (
     <div ref={divRef} className="gallery-image-div" onClick={() => {
+      console.log("ping");
       if (isMobile) {
         setShow(prev => !prev);
         if (show) {
