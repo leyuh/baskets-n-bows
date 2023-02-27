@@ -23,7 +23,7 @@ export const GalleryImage: React.FC<GalleryImageProps> = ({path, desc, k}) => {
           imgRef.current.style.filter = "brightness(50%) blur(2px)";
           descRef.current.style.visibility = "visible";
         } else {
-          imgRef.current.style.filter = "brightness(100%) blur(0px)";
+          imgRef.current.style.filter = "";
           descRef.current.style.visibility = "hidden";
         }
       }
@@ -35,7 +35,7 @@ export const GalleryImage: React.FC<GalleryImageProps> = ({path, desc, k}) => {
         }
       }} onMouseOut={() => {
         if (!isMobile) {
-          imgRef.current.style.filter = "brightness(100%) blur(0px)";
+          imgRef.current.style.filter = "";
           descRef.current.style.visibility = "hidden";
         }
       }}/>
@@ -47,7 +47,7 @@ export const GalleryImage: React.FC<GalleryImageProps> = ({path, desc, k}) => {
         }
       }} onMouseOut={() => {
         if (!isMobile) {
-          imgRef.current.style.filter = "brightness(100%) blur(0px)";
+          imgRef.current.style.filter = "";
           descRef.current.style.visibility = "hidden";
         }
       }}>{desc}</p>
