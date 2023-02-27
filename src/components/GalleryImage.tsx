@@ -17,7 +17,6 @@ export const GalleryImage: React.FC<GalleryImageProps> = ({path, desc, k}) => {
 
   return (
     <div ref={divRef} className="gallery-image-div" onClick={() => {
-      console.log("ping");
       if (isMobile) {
         setShow(prev => !prev);
         if (show) {
@@ -29,8 +28,29 @@ export const GalleryImage: React.FC<GalleryImageProps> = ({path, desc, k}) => {
         }
       }
     }}>
-        <img ref={imgRef}className="gallery-img" src={path}/>
-        <p ref={descRef} className="gallery-desc">{desc}</p>
+      <img ref={imgRef}className="gallery-img" src={path} onMouseOver={() => {
+        if (!isMobile) {
+          imgRef.current.style.filter = "brightness(50%) blur(2px)";
+          descRef.current.style.visibility = "visible";
+        }
+      }} onMouseOut={() => {
+        if (!isMobile) {
+          imgRef.current.style.filter = "brightness(100%) blur(0px)";
+          descRef.current.style.visibility = "hidden";
+        }
+      }}/>
+
+      <p ref={descRef} className="gallery-desc" onMouseOver={() => {
+        if (!isMobile) {
+          imgRef.current.style.filter = "brightness(50%) blur(2px)";
+          descRef.current.style.visibility = "visible";
+        }
+      }} onMouseOut={() => {
+        if (!isMobile) {
+          imgRef.current.style.filter = "brightness(100%) blur(0px)";
+          descRef.current.style.visibility = "hidden";
+        }
+      }}>{desc}</p>
     </div>
   );
 }

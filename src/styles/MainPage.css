@@ -184,12 +184,6 @@
     font-size: 35px;
     font-family: PrimaryFont;
 }
-.gallery-image-div:hover .gallery-img {
-    filter: brightness(50%) blur(2px);
-}
-.gallery-image-div:hover .gallery-desc {
-    visibility: visible;
-}
 
 .gallery-desc:hover {
     cursor: default;
