@@ -129,7 +129,7 @@
     justify-items: center;
     align-items: center;
     height: min-content;
-    padding-bottom: 40vh;
+    padding-bottom: 350px;
     gap: 3px;
 }
 
@@ -195,7 +195,7 @@
     align-items: center;
     background-color: rgb(64, 76, 37);
     height: 100vh !important;
-    padding-top: 5vh;
+    padding-top: 100px;
     padding-bottom: 30vh;
 }
 
@@ -235,14 +235,8 @@
     position: relative;
     list-style-type: none;
     left: -25px;
-    height: 80px;
+    height: 90px;
     margin: 5px;
-}
-#li-1 {
-    height: 60px !important; 
-}
-#li-2 {
-    height: 80px !important; 
 }
 #how-it-works-list > li > * {
     display: inline-block;
@@ -281,7 +275,7 @@
     background-color: rgb(166, 144, 110);
     display: flex;
     justify-content: center;
-    padding-bottom: 50vh;
+    padding-bottom: 200px;
 }
 
 #contact-info-div {
@@ -291,7 +285,7 @@
     border-radius: 15px;
     background-color: rgb(127, 108, 80);
     top: 35vh;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 #contact-info-div > h2 {
@@ -439,13 +433,13 @@
 
 @media only screen and (max-width: 750px) {
     .info-panel > h2 {
-        font-size: 30px !important;
+        font-size: 35px !important;
     }
     .info-panel > p {
-        font-size: 14px !important;
+        font-size: 18px !important;
     }
     #about-us-from {
-        font-size: 25px !important;
+        font-size: 30px !important;
     }
     #about-us-section {
         display: block;
@@ -462,11 +456,11 @@
     }
     #gallery-title {
         text-align: center;
-        font-size: 50px;
+        font-size: 65px;
     }
     #gallery-grid-div {
         padding-bottom: 35vh;
-        top: 150px;
+        top: 175px;
     }
     #about-us-img {
         display: block;
@@ -494,13 +488,13 @@
         height: auto;
     }
     .step-desc {
-        font-size: 15px;
-        left: 15px;
-        width: 67vw;
+        font-size: 18px;
+        left: 20px;
+        width: 73vw;
     }
     .step-number {
         left: -15px;
-        font-size: 20px;
+        font-size: 24px;
     }
     #how-it-works-list > li {
         margin-bottom: 10px;
@@ -509,7 +503,7 @@
         top: 10px;
         left: 5px;
         margin-bottom: 20px;
-        font-size: 30px !important;
+        font-size: 40px !important;
     }
     #how-it-works-section {
         padding-top: 0vh;
