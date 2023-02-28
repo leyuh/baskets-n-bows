@@ -195,7 +195,7 @@
     align-items: center;
     background-color: rgb(64, 76, 37);
     height: 100vh !important;
-    padding-top: 100px;
+    padding-top: 30vh;
     padding-bottom: 30vh;
 }
 
@@ -275,7 +275,7 @@
     background-color: rgb(166, 144, 110);
     display: flex;
     justify-content: center;
-    padding-bottom: 200px;
+    padding-bottom: 30vh;
 }
 
 #contact-info-div {
