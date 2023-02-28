@@ -19,7 +19,6 @@ function App() {
 
   // set mobile
   useEffect(() => {
-    console.log("ping");
     let width = window.innerWidth;
     if (width <= 1200) {
       setMobile(true);

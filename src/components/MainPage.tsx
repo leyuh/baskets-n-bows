@@ -5,6 +5,7 @@ import HomeBackgroundImg from '../images/home-img.jpeg';
 import AboutUsImg from '../images/about-us-img-2.jpeg';
 import GalleryBackgroundImg from '../images/gallery-img-1.jpeg';
 import HowItWorksImg from '../images/how-it-works-img-3.png';
+import HowItWorksImg2 from '../images/how-it-works-img.jpeg';
 import FacebookImg from '../images/facebook.png';
 import InstaImg from '../images/insta.png';
 
@@ -84,7 +85,7 @@ export const MainPage: React.FC = () => {
         </div>
         <div id="how-it-works-imgs-div">
           <img className="how-it-works-img" id="how-it-works-img-1" src={HowItWorksImg}/>
-          <img className="how-it-works-img" id="how-it-works-img-2" src={HowItWorksImg}/>
+          <img className="how-it-works-img" id="how-it-works-img-2" src={HowItWorksImg2}/>
         </div>
       </div>
 

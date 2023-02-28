@@ -1,6 +1,6 @@
 import a from './images/gallery/product-1.jpeg';
 import b from './images/gallery/product-2.jpeg';
-
+import c from './images/gallery/product-3.jpeg';
 import d from './images/gallery/product-4.jpeg';
 import e from './images/gallery/product-5.jpeg';
 import f from './images/gallery/product-6.jpeg';
@@ -20,6 +20,7 @@ import s from './images/gallery/product-19.jpeg';
 
 
 const GALLERY = [
+    [c, "For The Gentleman"],
     [a, "Kountry Kutie"],
     [i, "Succulent Sweetie"],
     [d, "Gift For Mama Bear"],
