@@ -275,7 +275,7 @@
     background-color: rgb(166, 144, 110);
     display: flex;
     justify-content: center;
-    padding-bottom: 30vh;
+    padding-bottom: calc(20vh + 200px);
 }
 
 #contact-info-div {
