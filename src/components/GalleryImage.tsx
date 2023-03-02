@@ -1,15 +1,19 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, SetStateAction, Dispatch, useEffect } from 'react';
 import {isMobile} from 'react-device-detect';
+
+import InspectGalleryImage from "./InspectGalleryImage";
 
 interface GalleryImageProps {
     path: string;
     desc: string;
+    showIGI: string | null;
+    setShowIGI: Dispatch<SetStateAction<string | null>>;
     k: number;
 }
 
-export const GalleryImage: React.FC<GalleryImageProps> = ({path, desc, k}) => {
+export const GalleryImage: React.FC<GalleryImageProps> = ({path, desc, showIGI, setShowIGI, k}) => {
 
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState<boolean>(true);  
 
   const divRef = useRef<any>();
   const imgRef = useRef<any>();
@@ -26,6 +30,17 @@ export const GalleryImage: React.FC<GalleryImageProps> = ({path, desc, k}) => {
           imgRef.current.style.filter = "";
           descRef.current.style.visibility = "hidden";
         }
+      }
+    }} onClick={() => {
+      if (!isMobile) {
+        setShowIGI(prev => {
+          if (prev == null) {
+            return imgRef.current.src;
+          } else if (prev != imgRef.current.src) {
+            return imgRef.current.src;
+          }
+          return null;
+        });
       }
     }}>
       <img ref={imgRef}className="gallery-img" src={path} onMouseOver={() => {

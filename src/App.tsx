@@ -13,6 +13,7 @@ function App() {
   const [mobile, setMobile] = useState(false);
   const [navVis, setNavVis] = useState<boolean>(false);
 
+
   useEffect(() => {
     document.title = 'Baskets & Bows';
   }, []);

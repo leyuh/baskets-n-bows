@@ -1,0 +1,29 @@
+
+#igi-bg {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    pointer-events: all;
+
+}
+
+#inspect-gallery-image {
+    height: min(calc(min(90vh, 90vw) - 100px), 750px);
+    top: 50px;
+    position: relative;
+    width: auto;
+    object-fit: cover;
+    z-index: 10;
+    border-radius: 5px;
+
+}
+

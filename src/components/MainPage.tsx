@@ -1,4 +1,4 @@
-import React, { SetStateAction } from 'react';
+import React, { SetStateAction, useState, useEffect, useRef } from 'react';
 
 import Logo from '../images/logo.png';
 import HomeBackgroundImg from '../images/home-img.jpeg';
@@ -10,6 +10,7 @@ import FacebookImg from '../images/facebook.png';
 import InstaImg from '../images/insta.png';
 
 import GalleryImage from './GalleryImage';
+import InspectGalleryImage from './InspectGalleryImage';
 
 import GALLERY from '../galleryModule';
 
@@ -20,6 +21,10 @@ import '../styles/MainPage.css';
 
 
 export const MainPage: React.FC = () => {
+
+  const [showIGI, setShowIGI] = useState<string | null>(null);
+
+
   return (
     <div id="main-div">
 
@@ -50,11 +55,17 @@ export const MainPage: React.FC = () => {
             return <GalleryImage
               path={img}
               desc={desc}
+              showIGI={showIGI}
+              setShowIGI={setShowIGI}
               key={i}
               k={i}
             />
           })}
         </div>
+        {showIGI ? <InspectGalleryImage
+          imgSrc={showIGI}
+          setShowIGI={setShowIGI}
+        /> : ""}
       </div>
 
       <div className="page-section" id="how-it-works-section">
