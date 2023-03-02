@@ -220,7 +220,7 @@
     height: auto;
     width: min(550px, 50vw);
     position: relative;
-    z-index: 5;
+    z-index: 3;
     gap: 5px;
     display:grid;
     align-items: center;
