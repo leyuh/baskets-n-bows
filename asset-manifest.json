@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.ae5a53af.css",
-    "main.js": "/static/js/main.10ebdbbd.js",
+    "main.js": "/static/js/main.9e47c739.js",
     "static/media/product-5.jpeg": "/static/media/product-5.3bde199f8ff29e4e9a43.jpeg",
     "static/media/product-12.jpeg": "/static/media/product-12.05bf22b211a196f29ef0.jpeg",
+    "static/media/product-20.jpeg": "/static/media/product-20.92d6c7b5a52c2e583061.jpeg",
     "static/media/product-16.jpeg": "/static/media/product-16.e586d2c46cb2bfd5357b.jpeg",
-    "static/media/product-14.jpeg": "/static/media/product-14.bcf099d0c72c74bc8a33.jpeg",
-    "static/media/product-4.jpeg": "/static/media/product-4.12fdc1065b09e94b0de5.jpeg",
-    "static/media/product-13.jpeg": "/static/media/product-13.98ae123c8f1e25d32a38.jpeg",
+    "static/media/product-21.jpeg": "/static/media/product-21.91163d6e31f0f9f7c96f.jpeg",
     "static/media/gallery-img-1.jpeg": "/static/media/gallery-img-1.ccd5f2d311b000ea4526.jpeg",
-    "static/media/product-9.jpeg": "/static/media/product-9.d8eb4f69cd0bbf3b1540.jpeg",
     "static/media/about-us-img-2.jpeg": "/static/media/about-us-img-2.dc0906d4e434131a8359.jpeg",
     "static/media/product-19.jpeg": "/static/media/product-19.dc0906d4e434131a8359.jpeg",
     "static/media/product-18.jpeg": "/static/media/product-18.a291a3e74198d9f98ac9.jpeg",
     "static/media/product-15.jpeg": "/static/media/product-15.018c93b0fe5657f30066.jpeg",
     "static/media/how-it-works-img.jpeg": "/static/media/how-it-works-img.86d37e086cc57fc634f8.jpeg",
-    "static/media/product-8.jpeg": "/static/media/product-8.ccdc8aa7cdddea26a0c9.jpeg",
+    "static/media/product-23.jpeg": "/static/media/product-23.010d6b1432df47482d03.jpeg",
+    "static/media/product-22.jpeg": "/static/media/product-22.e1adeabe010527235a8e.jpeg",
     "static/media/product-3.jpeg": "/static/media/product-3.a80d0a28db2279cab5a1.jpeg",
     "static/media/product-11.jpeg": "/static/media/product-11.dd440158abf96f286f43.jpeg",
     "static/media/how-it-works-img-3.png": "/static/media/how-it-works-img-3.e82647da6279b607f2fa.png",
@@ -30,10 +29,10 @@
     "static/media/navbar.png": "/static/media/navbar.38d62afcc7853f7da5cb.png",
     "index.html": "/index.html",
     "main.ae5a53af.css.map": "/static/css/main.ae5a53af.css.map",
-    "main.10ebdbbd.js.map": "/static/js/main.10ebdbbd.js.map"
+    "main.9e47c739.js.map": "/static/js/main.9e47c739.js.map"
   },
   "entrypoints": [
     "static/css/main.ae5a53af.css",
-    "static/js/main.10ebdbbd.js"
+    "static/js/main.9e47c739.js"
   ]
 }
