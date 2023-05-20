@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.ae5a53af.css",
-    "main.js": "/static/js/main.9e47c739.js",
+    "main.js": "/static/js/main.f125d3f6.js",
     "static/media/product-5.jpeg": "/static/media/product-5.3bde199f8ff29e4e9a43.jpeg",
     "static/media/product-12.jpeg": "/static/media/product-12.05bf22b211a196f29ef0.jpeg",
     "static/media/product-20.jpeg": "/static/media/product-20.92d6c7b5a52c2e583061.jpeg",
     "static/media/product-16.jpeg": "/static/media/product-16.e586d2c46cb2bfd5357b.jpeg",
     "static/media/product-21.jpeg": "/static/media/product-21.91163d6e31f0f9f7c96f.jpeg",
+    "static/media/product-24.jpeg": "/static/media/product-24.adc8af222843fd3ed078.jpeg",
+    "static/media/product-27.jpeg": "/static/media/product-27.f0e059d4641b94e343d0.jpeg",
+    "static/media/product-25.jpeg": "/static/media/product-25.b31d9a2c192bba210aa5.jpeg",
     "static/media/gallery-img-1.jpeg": "/static/media/gallery-img-1.ccd5f2d311b000ea4526.jpeg",
     "static/media/about-us-img-2.jpeg": "/static/media/about-us-img-2.dc0906d4e434131a8359.jpeg",
     "static/media/product-19.jpeg": "/static/media/product-19.dc0906d4e434131a8359.jpeg",
@@ -15,13 +18,13 @@
     "static/media/how-it-works-img.jpeg": "/static/media/how-it-works-img.86d37e086cc57fc634f8.jpeg",
     "static/media/product-23.jpeg": "/static/media/product-23.010d6b1432df47482d03.jpeg",
     "static/media/product-22.jpeg": "/static/media/product-22.e1adeabe010527235a8e.jpeg",
-    "static/media/product-3.jpeg": "/static/media/product-3.a80d0a28db2279cab5a1.jpeg",
     "static/media/product-11.jpeg": "/static/media/product-11.dd440158abf96f286f43.jpeg",
     "static/media/how-it-works-img-3.png": "/static/media/how-it-works-img-3.e82647da6279b607f2fa.png",
     "static/media/product-17.jpeg": "/static/media/product-17.2d4277de4e722abe6c4b.jpeg",
     "static/media/product-6.jpeg": "/static/media/product-6.1df30bd8254d42dc660d.jpeg",
     "static/media/logo.png": "/static/media/logo.20ee6986208055ec2e3e.png",
     "static/media/product-2.jpeg": "/static/media/product-2.180adfcbd9dfa697966b.jpeg",
+    "static/media/product-26.jpeg": "/static/media/product-26.261f1ab8e8a17a56cab0.jpeg",
     "static/media/product-1.jpeg": "/static/media/product-1.5aec1d976d2306c8e1a8.jpeg",
     "static/media/font-1.ttf": "/static/media/font-1.1d7f0d5b45822c1be70c.ttf",
     "static/media/font-2.otf": "/static/media/font-2.0d681ed699b8c075718f.otf",
@@ -29,10 +32,10 @@
     "static/media/navbar.png": "/static/media/navbar.38d62afcc7853f7da5cb.png",
     "index.html": "/index.html",
     "main.ae5a53af.css.map": "/static/css/main.ae5a53af.css.map",
-    "main.9e47c739.js.map": "/static/js/main.9e47c739.js.map"
+    "main.f125d3f6.js.map": "/static/js/main.f125d3f6.js.map"
   },
   "entrypoints": [
     "static/css/main.ae5a53af.css",
-    "static/js/main.9e47c739.js"
+    "static/js/main.f125d3f6.js"
   ]
 }
