@@ -21,14 +21,14 @@ import t from "./images/gallery/product-27.jpeg";
 
 
 const GALLERY = [
-    [g, "For The Gentleman"],
+    [g, "For The Birds!"],
     [a, "Kountry Kutie"],
     [f, "Coffee Lover"],
     [e, "Diamonds & Chanel"],
     [s, "Cowboy Take Me Away"],
     [b, "Little Black Basket"],
     [r, "Royal Tea Party"],
-    [n, "Cinco de My-Oh-My"],
+    [h, "From Teacher's Pet"],
     [k, "Hand Poured Soy Candles"],
     [l, "Valentine Lovely"],
     [o, "Old Spice is Nice"],
@@ -36,9 +36,9 @@ const GALLERY = [
     [p, "Magical Harry Potter"],
     [q, "Wine Country"],
     [i, "Tween Queen"],
-    [h, "St. Patty's Special"],
+    [n, "North To Alaska"],
     [d, "Earth Toned Beauty"],
-    [t, "21 Fun"],
+    [t, "Welcome Home"],
     [m, "Easter Baby"],
 ]
 
